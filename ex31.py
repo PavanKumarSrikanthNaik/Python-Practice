@@ -30,3 +30,12 @@ elif door == "2":
 
 else:
 	print "You stumble around and fall on a knife and die. Good job."
+
+x = int(raw_input("x = "))
+if 0 < x < 10:
+    print "%d is in range" % x
+else: 
+    print "%d is not in range" % x
+
+
+
